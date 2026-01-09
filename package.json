@@ -1,0 +1,28 @@
+{
+  "name": "vaultflow",
+  "version": "1.0.0",
+  "description": "VaultFlow is a full-stack fintech ecosystem comprising a **Node.js/TypeScript** backend, a **React Native** mobile application for P2P payments, and a **React** web dashboard for advanced financial management.",
+  "private": true,
+  "workspaces": [
+    "shared",
+    "backend",
+    "web",
+    "mobile"
+  ],
+  "scripts": {
+    "install-all": "npm install",
+    "build-shared": "npm run build --workspace=shared"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashish-panicker/VaultFlow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ashish-panicker/VaultFlow/issues"
+  },
+  "homepage": "https://github.com/ashish-panicker/VaultFlow#readme"
+}
